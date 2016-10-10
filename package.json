@@ -1,0 +1,17 @@
+{
+  "name": "comment-page",
+  "version": "1.0.0",
+  "description": "Page with comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrey Kunitsyn",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-composer": "^0.4.0",
+    "gulp-connect-php": "0.0.8"
+  }
+}

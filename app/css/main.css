@@ -1,0 +1,77 @@
+@media screen and (min-width: 40em) {
+	html {
+		margin: 0 0 0 calc(100vw - 100%);
+	}
+}
+
+body {
+	background-color: #CEF;
+	max-width: 40em;
+	margin: 0 auto;
+	font: medium sans-serif;
+	word-break: break-all;
+}
+
+input, textarea {
+	font: medium sans-serif;
+	border-color: #CEF;
+	border-width: 0.2em;
+	border-radius: 1em;
+	padding: 0.5em;
+	margin: 0.5em;
+	border-style: solid;
+	resize: none;
+	width: 50%;
+}
+
+input[type=submit] {
+	background-color: #79A;
+	border-color: #ACD;
+	color: #FFF;
+	cursor: pointer;
+	width: auto;
+}
+
+hr {
+	border-style: solid;
+}
+
+.ballon {
+	border-radius: 1em;
+	background-color: #FFF;
+	padding: 1em;
+	margin: 1em 1em;
+}
+
+.comment {
+	color: #000;
+	margin: 1em 0em 1em 1em;
+	padding: 0em;
+}
+
+.author {
+	font-size: large;
+	float: left;
+}
+
+.date {
+	font-size: small;
+	font-style: italic;
+	float: right;
+}
+
+.error {
+	background-color: #A00;
+	color: #FFF;
+}
+
+.hidden {
+	display: none;
+}
+
+.reply {
+	font-size: small;
+	text-decoration-style: dashed;
+	display: block;
+	outline: none;
+}
